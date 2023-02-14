@@ -5,25 +5,29 @@ Feature: Library login feature
   User Story:
   As a user, I should be able to login with correct credentials to different accounts. And dashboard should be displayed.
   Accounts are: librarian, student, admin.
+  #this is how we cooment in feature file
 
-  @librarian
-  Scenario: Login as librarian
+  Background: For all scenarios user is on the login page of the library application
     Given user is on the login page of the library application
+
+  @librarian @smoke
+  Scenario: Login as librarian
+
     When  user enters librarian usurname
     And user enters librarian password
     Then  user should see the dashboard
 
 
-   @student
+   @student @smoke
     Scenario: Login as student
-      Given user is on the login page of the library application application
+
       When  user enters student usurname
       And user enters student password
       Then  user should see the dashboard
 
-  @admin
+  @admin @smoke
   Scenario: Login as admin
-    Given user is on the login page of the library application application
+
     When  user enters admin usurname
     And user enters admin password
     Then  user should see the dashboard

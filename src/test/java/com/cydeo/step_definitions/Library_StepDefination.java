@@ -40,9 +40,10 @@ public class Library_StepDefination {
     public void userIsOnTheLoginPageOfTheLibraryApplication() {
     }
 
-    @Given("user is on the login page of the library application application")
+    @Given("user is on the login page of the library application ")
     public void userIsOnTheLoginPageOfTheLibraryApplicationApplication() {
-        
+
+
     }
 
     @And("user enters admin password")
