@@ -42,5 +42,15 @@ public class Library_StepDefination {
 
     @Given("user is on the login page of the library application application")
     public void userIsOnTheLoginPageOfTheLibraryApplicationApplication() {
+        
+    }
+
+    @And("user enters admin password")
+    public void userEntersAdminPassword() {
+        
+    }
+
+    @When("user enters admin usurname")
+    public void userEntersAdminUsurname() {
     }
 }

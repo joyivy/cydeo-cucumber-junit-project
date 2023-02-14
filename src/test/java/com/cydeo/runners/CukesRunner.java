@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         //plugin = "html:target/cucumber-reports.html",
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
-        dryRun = true
-        //tags = "@regression and not @admin",
+        dryRun = true,
+        tags = "@admin"
         //publish = true
 )
 public class CukesRunner {}
