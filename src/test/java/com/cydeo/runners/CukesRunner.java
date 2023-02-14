@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         //plugin = "html:target/cucumber-reports.html",
         features = "src/test/resources/features",
-        glue = "com/cydeo/step_definitions"
-        //dryRun = false,
+        glue = "com/cydeo/step_definitions",
+        dryRun = true
         //tags = "@regression and not @admin",
         //publish = true
 )

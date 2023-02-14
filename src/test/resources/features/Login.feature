@@ -6,7 +6,14 @@ Feature: Library login feature
 
   Scenario: Login as librarian
 
-    Given user is on the login page of teh library application
+    Given user is on the login page of the library application
     When  user enters librarian usurname
     And user enters librarian password
     Then  user should see the dashboard
+
+
+    Scenario: Login as student
+      Given user is on the login page of the library application application
+      When  user enters student usurname
+      And user enters student password
+      Then  user should see the dashboard

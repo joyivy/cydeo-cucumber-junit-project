@@ -1,5 +1,6 @@
 package com.cydeo.step_definitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -24,4 +25,22 @@ public class Library_StepDefination {
     }
 
 
+    @When("user enters student usurname")
+    public void userEntersStudentUsurname() {
+        
+        
+    }
+
+    @And("user enters student password")
+    public void userEntersStudentPassword() {
+        
+    }
+
+    @Given("user is on the login page of the library application")
+    public void userIsOnTheLoginPageOfTheLibraryApplication() {
+    }
+
+    @Given("user is on the login page of the library application application")
+    public void userIsOnTheLoginPageOfTheLibraryApplicationApplication() {
+    }
 }
